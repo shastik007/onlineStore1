@@ -36,7 +36,7 @@ public class OnlineStoreApplication {
         return " Hello Barsbek2";
     }
 
-//    @PostConstruct
+   @PostConstruct
     public void init() {
         Role client = new Role();
         client.setId(1L);
